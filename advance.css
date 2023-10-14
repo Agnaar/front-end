@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: aqua;
+    height: 1700px;
+}
+
+.nav {
+    background-color: #777;
+     height: 70px; 
+    width: 100vw;
+    text-align: center;
+    /* line-height: 60px; */
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.contact {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(44, 197, 44);
+    position: fixed;
+    top: 90vh;
+    left: 90vw;
+    z-index: 2;
+}
+
+.content {
+margin: 58px 0 0;
+}
+
+.sticky {
+    font-size: 33px;
+    color: aliceblue;
+    font-style:inherit;
+    background-color: #777;
+    height: 50px;
+    text-align: center;
+   line-height: 50px;
+   position: sticky;
+   top: 50px;
+   z-index: 1;
+}
+
+.tickets {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px dashed rgb(231, 231, 36);
+    position: relative;
+    margin: 10px 0;
+}
+
+.sold {
+    background-color: rgb(240, 11, 11);
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    transform:rotate(40deg);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        background-color: lightgreen;
+    }
+}
