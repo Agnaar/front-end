@@ -1,0 +1,51 @@
+/* Reset margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling container */
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+/* Styling tabel dan seluruh elemennya */
+table, th, td {
+    background-color: orangered;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* Styling header tabel */
+th {
+    width: fit-content;
+    height: fit-content;
+    background-color: #333;
+    color: white;
+}
+
+/* Styling gambar dalam sel */
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Styling teks dalam sel */
+td sup {
+    font-size: 80%;
+    vertical-align: super;
+}
+
+
+
